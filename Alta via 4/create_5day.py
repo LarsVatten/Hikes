@@ -179,7 +179,7 @@ content = content.replace(
 
 # Update days count
 content = content.replace(
-    '<span class="val" id="total-days">9</span><span class="lbl">Etapper</span>',
+    '<span class="val" id="total-days">5</span><span class="lbl">Etapper</span>',
     '<span class="val" id="total-days">5</span><span class="lbl">Dager</span>'
 )
 
@@ -189,3 +189,4 @@ with open('Alta Via 4 - 5 dager.html', 'w', encoding='utf-8') as f:
 
 print('Created: Alta Via 4 - 5 dager.html')
 print('Size:', len(content), 'chars')
+
